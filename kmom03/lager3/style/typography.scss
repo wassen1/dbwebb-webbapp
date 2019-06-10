@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: $font-body;
+    line-height: 1.4;
+}
+h1,
+h2,
+h4 {
+    margin-top: 0;
+    color: $almost-black;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2.8rem;
+    color: $mint-green;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-family: $font-sans-serif;
+}
+
+main {
+    padding: 1.4rem 0.6rem;
+}
+
+.title {
+    font-family: $font-title;
+    font-size: 2.4rem;
+    border-bottom: 1px solid $light-grey;
+    margin-top: 0;
+}

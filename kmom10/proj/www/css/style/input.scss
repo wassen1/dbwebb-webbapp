@@ -1,0 +1,44 @@
+.input {
+  color: $almost-black;
+  background-color: $white;
+  // background-image: linear-gradient($white, $almost-white);
+  border: 1px solid $light-grey;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: $font-sans-serif;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  line-height: 1.4;
+  width: 32rem;
+  &:hover {
+    background-color: darken($white, 10%);
+  }
+}
+
+.input-label {
+  font-weight: bold;
+  margin: 2rem 0 0 0;
+  display: block;
+}
+
+.input-label:first-of-type {
+  margin: 1rem 0 0 0;
+}
+
+.input-label::after {
+  content: ":";
+}
+
+.checkbox {
+    margin-right: 1.4rem;
+}
+
+@media (max-width: 667px) {
+  .input {
+    width: 100%;
+  }
+}

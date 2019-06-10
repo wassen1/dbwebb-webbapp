@@ -1,0 +1,39 @@
+.button {
+    color: $almost-black;
+    background-color: $white;
+    background-image: linear-gradient($white, $almost-white);
+    border: 1px solid $light-grey;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    font-family: $font-sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+    margin-bottom: 2.6rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    line-height: 1.4;
+    width: 32rem;
+    &.special {
+        background-color: $mint-green;
+        background-image: linear-gradient($white, $mint-green);
+    }
+}
+
+.button:hover {
+    background-color: $a-bit-more-grey;
+    background-image: none;
+}
+
+.button:active {
+    background-color: $a-bit-more-grey;
+    background-image: none;
+    box-shadow: inset 0 2px 4px $a-bit-more-grey;
+}
+
+@media (max-width: 667px) {
+    .button {
+        width: 100%;
+    }
+}

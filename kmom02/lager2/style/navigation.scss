@@ -1,0 +1,56 @@
+/* Top nav */
+.top-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding-top: 1.4rem;
+    padding-right: 1.4rem;
+    background: $white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    a {
+        text-align: center;
+        color: $dark-grey;
+    }
+    a.active {
+        color: $mint-green;
+    }
+    i {
+        display: block;
+    }
+    span {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+/* Nav */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    border-top: 1px solid $light-grey;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background: $white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    a {
+        text-align: center;
+        color: $dark-grey;
+    }
+    a.active {
+        color: $mint-green;
+    }
+    i {
+        display: block;
+    }
+    span {
+        font-size: 0.7rem;
+    }
+}
