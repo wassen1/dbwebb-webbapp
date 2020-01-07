@@ -1,5 +1,5 @@
 # dbwebb-webbapp
-From course in Javascript at Blekinge Institute of Technology, BTH, 2019 <br>
+From course in Webbapp at Blekinge Institute of Technology, BTH, 2019 <br>
 ![Demo Home](../assets/particle_home.png?raw=true)
 ![Demo Map](../assets/particle_map.png?raw=true)
 ![Demo Login](../assets/particle_login.png?raw=true)
